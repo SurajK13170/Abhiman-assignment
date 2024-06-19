@@ -1,0 +1,85 @@
+/* Home.css */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .home h2 {
+    margin-bottom: 20px;
+  }
+  
+  .home form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .home .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .home .actions button {
+    width: 48%;
+  }
+  
+
+  nav {
+    background-color: #333; /* Background color of the nav bar */
+    overflow: hidden; /* Clear floating elements */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+/* Unordered List */
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center the nav items */
+}
+
+/* List Items */
+nav ul li {
+    padding: 14px 20px; /* Spacing around each link */
+}
+
+/* Links */
+nav ul li a {
+    display: block; /* Block-level for padding and hover effects */
+    color: white; /* Text color */
+    text-align: center; /* Center text in the link */
+    text-decoration: none; /* Remove underline */
+    padding: 14px 20px; /* Padding inside links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover Effects */
+nav ul li a:hover {
+    background-color: #575757; /* Darken background on hover */
+    color: white; /* Text color on hover */
+}
+
+/* Active Link */
+nav ul li a.active {
+    background-color: #4CAF50; /* Different color for active link */
+    color: white;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align the items */
+    }
+    nav ul li {
+        width: 100%; /* Full width items */
+    }
+    nav ul li a {
+        text-align: left; /* Left align text */
+        padding: 10px; /* Adjust padding */
+    }
+}

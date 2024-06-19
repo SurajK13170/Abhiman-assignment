@@ -1,0 +1,66 @@
+/* ChatRoom.css */
+
+.chat-room {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .chat-room .chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .chat-room .message-list {
+    flex: 3;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: white;
+  }
+  
+  .chat-room .message-list .message {
+    margin-bottom: 10px;
+  }
+  
+  .chat-room .message-list .message .meta {
+    font-size: 0.875em;
+    color: #555;
+  }
+  
+  .chat-room .message-list .message .content {
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+  }
+  
+  .chat-room .participants-list {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    background-color: #f8f9fa;
+  }
+  
+  .chat-room .participants-list .participant {
+    margin-bottom: 10px;
+  }
+  
+  .chat-room .message-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .chat-room .message-input input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .chat-room .message-input button {
+    padding: 10px;
+  }
+  

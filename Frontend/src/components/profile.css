@@ -1,0 +1,31 @@
+/* Profile.css */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile .profile-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile .profile-card .details {
+    margin-bottom: 20px;
+  }
+  
+  .profile .profile-card .details p {
+    margin-bottom: 10px;
+  }
+  
+  .profile .profile-card button {
+    width: 100%;
+  }
+  
